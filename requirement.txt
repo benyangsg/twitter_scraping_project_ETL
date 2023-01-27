@@ -1,0 +1,13 @@
+conda install -c conda-forge tweepy
+conda install -c conda-forge configparser
+conda install -c anaconda pandas
+conda install -c conda-forge pytz
+conda install -c anaconda psycopg2
+conda install -c anaconda nltk
+conda install -c conda-forge matplotlib
+conda install -c conda-forge wordcloud
+conda install -c anaconda re
+conda install -c conda-forge langdetect
+conda install -c conda-forge vaderSentiment
+
+Note that you may need to use pip instead of conda if these packages are not available on the conda-forge channel.
