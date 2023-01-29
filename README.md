@@ -38,11 +38,3 @@ To use the bot, you will need to have a Twitter developer account and create a n
 5. Refer to Workflow and Star Schema diagram below for reference 
 6. The analysis of the tweets will be printed in the console
 7. The script will output the sentiment analysis result of the latest 20 tweets and quoted tweets of @elonmusk on the console.
-
-### WORKFLOW DIAGRAM
-click on image to zoom
-![Workflow Diagram](https://user-images.githubusercontent.com/105503334/215141879-be3c35da-3a03-4a8c-937f-33c5a77c5880.png)
-
-### STAR SCHEMA DIAGRAM
-click on image to zoom
-![Star Schema](https://user-images.githubusercontent.com/105503334/215154696-1f8d83db-1ca9-4cb4-80b2-40e93afd89f4.png)
