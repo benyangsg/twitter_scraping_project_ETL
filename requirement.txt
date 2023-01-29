@@ -9,5 +9,6 @@ conda install -c conda-forge wordcloud
 conda install -c anaconda re
 conda install -c conda-forge langdetect
 conda install -c conda-forge vaderSentiment
+conda install numpy
 
 Note that you may need to use pip instead of conda if these packages are not available on the conda-forge channel.

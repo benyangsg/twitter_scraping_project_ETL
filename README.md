@@ -21,6 +21,7 @@ The bot is built using Python in Anaconda and makes use of the following librari
 * [nltk](https://www.nltk.org/) for cleaning stopwords
 * [matplotlib](https://matplotlib.org/) for creating visualisations
 * [VADER](https://pypi.org/project/vaderSentiment/) for sentiment analysis
+* [numpy](https://numpy.org/) support for large, multi-dimensional arrays and matrices
 
 #### LOAD
 * [psycopg2](https://www.psycopg.org/) for data migration and manipulation from postgresql
@@ -37,11 +38,3 @@ To use the bot, you will need to have a Twitter developer account and create a n
 5. Refer to Workflow and Star Schema diagram below for reference 
 6. The analysis of the tweets will be printed in the console
 7. The script will output the sentiment analysis result of the latest 20 tweets and quoted tweets of @elonmusk on the console.
-
-### WORKFLOW DIAGRAM
-click on image to zoom
-![Workflow Diagram](https://user-images.githubusercontent.com/105503334/215141879-be3c35da-3a03-4a8c-937f-33c5a77c5880.png)
-
-### STAR SCHEMA DIAGRAM
-click on image to zoom
-![ERD_twitter_bot](https://user-images.githubusercontent.com/104753473/215319032-31f67d32-938d-419c-ac67-8f128b7a7dee.png)
