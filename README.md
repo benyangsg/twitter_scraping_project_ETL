@@ -44,4 +44,4 @@ click on image to zoom
 
 ### STAR SCHEMA DIAGRAM
 click on image to zoom
-![Star Schema](https://user-images.githubusercontent.com/105503334/215154696-1f8d83db-1ca9-4cb4-80b2-40e93afd89f4.png)
+![ERD_twitter_bot](https://user-images.githubusercontent.com/104753473/215319032-31f67d32-938d-419c-ac67-8f128b7a7dee.png)
