@@ -21,6 +21,7 @@ The bot is built using Python in Anaconda and makes use of the following librari
 * [nltk](https://www.nltk.org/) for cleaning stopwords
 * [matplotlib](https://matplotlib.org/) for creating visualisations
 * [VADER](https://pypi.org/project/vaderSentiment/) for sentiment analysis
+* [numpy](https://numpy.org/) support for large, multi-dimensional arrays and matrices
 
 #### LOAD
 * [psycopg2](https://www.psycopg.org/) for data migration and manipulation from postgresql
