@@ -69,9 +69,9 @@ Go back to Developer Portal and copy the keys and access tokens.
 
 
 
-**UNDERSTANDING TWEEPY AND HOW IT WORKS**
+# UNDERSTANDING TWEEPY AND HOW IT WORKS
 
-**Introduction**
+# Introduction
 
 - Tweepy is a popular Python library used for accessing the Twitter API. 
 
@@ -81,7 +81,7 @@ Go back to Developer Portal and copy the keys and access tokens.
 
 
 
-**Tweepy.Cursor and Tweepy.Paginator**
+# Tweepy.Cursor and Tweepy.Paginator
 
 - Both are part of the Tweepy library and is used to retrieve tweets from the Twitter API in a paginated manner. 
 
@@ -89,12 +89,12 @@ Go back to Developer Portal and copy the keys and access tokens.
 
 
 
-**Difference**
+# Difference
 
 The main difference between the two classes is in how they retrieve the tweets and handle pagination.
 
 
-**Tweepy.Cursor** 
+# Tweepy.Cursor
 
 - Designed to retrieve tweets in a stream-like fashion, making it easy to retrieve large amounts of tweets without having to worry about pagination or rate limiting. 
 
@@ -103,7 +103,7 @@ The main difference between the two classes is in how they retrieve the tweets a
 - Uses the OAuth (consumer key, consumer secret, access token, and access token secret) to authenticate with the Twitter API.
 
 
-**Tweepy.Paginator**
+# Tweepy.Paginator
 
 - Designed to handle pagination manually. This class requires you to specify the number of tweets to retrieve on each page, and provides methods for accessing individual pages of results. 
 
@@ -118,7 +118,7 @@ In order to retrieve Elon Musk's tweets, the **tweepy.Cursor** class is used to 
       for tweet in tweepy.Cursor(api.user_timeline, screen_name=user, tweet_mode='extended', exclude_replies=True, ).items():
 
 
-**Parameters** 
+# Parameters
  
  - **api.user_timeline** : retrieve tweets from the timeline of a user specified by the screen_name parameter.
  
@@ -129,7 +129,7 @@ In order to retrieve Elon Musk's tweets, the **tweepy.Cursor** class is used to 
  - **.items()** : iterate over the tweets in the timeline.
  
 
-**Note**
+# Note
 Each tweet retrieved includes a **tweet ID**, which is a **unique identifier** assigned by Twitter to each tweet. 
 Those tweets collected that are without the keywords are filtered out. 
 
@@ -139,7 +139,7 @@ Next, the **tweepy.Paginator** class is used to retrieve **quoted tweets** for e
     for tweet in tweepy.Paginator(client.get_quote_tweets, id = tweet.id, max_results=25, exclude='retweets').flatten(limit=25):
 
 
-**Parameters**
+# Parameters
 
  - **client.get_quote_tweets** : a method or function provided by the client object that is used to retrieve quoted tweets from the Twitter API.
  
