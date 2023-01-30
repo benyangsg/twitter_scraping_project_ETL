@@ -12,7 +12,7 @@ Go to <https://developer.twitter.com> and sign in to your Twitter account. Navig
 
 Then, scroll down to the bottom of the page and click **Get Started**.
 
-
+![twitter-api-get-started](https://user-images.githubusercontent.com/31993566/215387606-c06a81f8-13eb-420b-a543-9bcf52ff5086.png)
 
 
 **UNDERSTANDING TWEEPY AND HOW IT WORKS**
