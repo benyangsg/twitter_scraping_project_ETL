@@ -80,13 +80,11 @@ Go back to Developer Portal and copy the keys and access tokens.
 - Both classes help to handle the pagination of tweets when the number of tweets exceeds the standard rate limit.
 
 
-
 # Tweepy.Cursor and Tweepy.Paginator
 
 - Both are part of the Tweepy library and is used to retrieve tweets from the Twitter API in a paginated manner. 
 
 - **"Paginated manner"** means that the results are divided into pages, rather than being returned all at once. This helps to manage large amounts of data and improve performance.
-
 
 
 # Difference
@@ -110,7 +108,6 @@ The main difference between the two classes is in how they retrieve the tweets a
 - This allows you to have more control over the pagination process, and can be useful when you need to retrieve only a specific set of tweets or when you need to process the results in a specific order.
 
 - Uses the bearer token to authenticate with the Twitter API.
-
 
 
 In order to retrieve Elon Musk's tweets, the **tweepy.Cursor** class is used to retrieve tweets from a Elon Musk's timeline.
