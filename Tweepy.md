@@ -10,6 +10,11 @@ Go to <https://developer.twitter.com> and sign in to your Twitter account. Navig
 ![twitter-api-sign-up](https://user-images.githubusercontent.com/31993566/215386277-dba32683-d6bf-4dbf-98b0-e6e59555e122.png)
 
 
+Then, scroll down to the bottom of the page and click **Get Started**.
+
+
+
+
 **UNDERSTANDING TWEEPY AND HOW IT WORKS**
 
 **Introduction**
