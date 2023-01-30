@@ -1,3 +1,11 @@
+# Twitter API Application
+
+In order to use Twitter API, a Twitter developer account is required.  Apply for the **Essential** level first, then upgrade to **Elevated** level. 
+
+The steps are as follows:
+
+Go to <https://developer.twitter.com> and sign in to your Twitter account. Navigate to **Products → Twitter API**.
+
 
 ![twitter-api-sign-up](https://user-images.githubusercontent.com/31993566/215386277-dba32683-d6bf-4dbf-98b0-e6e59555e122.png)
 
